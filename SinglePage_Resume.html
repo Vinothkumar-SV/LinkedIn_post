@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinoth Kumar S - Resume</title>
+<style>
+  * { box-sizing: border-box; }
+  @page { size: A4; margin: 0; }
+
+  body {
+    margin: 0;
+    background: #e9edf2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #20242a;
+  }
+
+  .resume {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 18px auto;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 72mm;
+    box-shadow: 0 2px 14px rgba(0,0,0,.12);
+  }
+
+  .main {
+    padding: 10mm 8mm 10mm 11mm;
+  }
+
+  .sidebar {
+    background: #0795ee;
+    color: #fff;
+    padding: 10mm 7mm;
+  }
+
+  .name {
+    font-size: 23px;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: .2px;
+  }
+
+  .role {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 2px;
+  }
+
+  .contact {
+    font-size: 7.5px;
+    line-height: 1.55;
+    margin-top: 5px;
+    color: #39434e;
+  }
+
+  .contact span { margin-right: 7px; }
+
+  .section {
+    margin-top: 13px;
+  }
+
+  .section-title {
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #333;
+  }
+
+  .summary {
+    font-size: 8.3px;
+    line-height: 1.48;
+    text-align: left;
+  }
+
+  .job {
+    margin-bottom: 9px;
+  }
+
+  .job-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: baseline;
+  }
+
+  .job-title {
+    font-size: 9.5px;
+    font-weight: 800;
+  }
+
+  .date {
+    font-size: 7.5px;
+    white-space: nowrap;
+    color: #4d5660;
+  }
+
+  .company {
+    font-size: 8.5px;
+    font-weight: 700;
+    margin: 2px 0 3px;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 14px;
+  }
+
+  li {
+    font-size: 7.7px;
+    line-height: 1.42;
+    margin-bottom: 2px;
+  }
+
+  .project {
+    margin-bottom: 7px;
+  }
+
+  .project-title {
+    font-size: 9px;
+    font-weight: 800;
+    margin-bottom: 2px;
+  }
+
+  .profile-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.12);
+    border: 2px solid rgba(255,255,255,.15);
+    margin: 0 auto 14mm;
+    position: relative;
+  }
+
+  .profile-icon:before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border: 2px solid #1474b6;
+    border-radius: 50%;
+    top: 9px;
+    left: 13px;
+  }
+
+  .profile-icon:after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 12px;
+    border: 2px solid #1474b6;
+    border-bottom: 0;
+    border-radius: 18px 18px 0 0;
+    bottom: 8px;
+    left: 9px;
+  }
+
+  .side-section {
+    margin-bottom: 13px;
+  }
+
+  .side-title {
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid rgba(255,255,255,.9);
+  }
+
+  .side-subtitle {
+    font-size: 8.5px;
+    font-weight: 800;
+    margin: 6px 0 2px;
+  }
+
+  .side-text {
+    font-size: 7.5px;
+    line-height: 1.5;
+  }
+
+  .side-list {
+    font-size: 7.5px;
+    line-height: 1.55;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .side-list li {
+    font-size: 7.5px;
+    margin-bottom: 1px;
+  }
+
+  @media print {
+    body { background: #fff; }
+    .resume {
+      margin: 0;
+      box-shadow: none;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .resume {
+      width: 100%;
+      min-height: auto;
+      grid-template-columns: 1fr 31%;
+      margin: 0;
+    }
+  }
+</style>
+</head>
+
+<body>
+<div class="resume">
+
+  <main class="main">
+
+    <header>
+      <h1 class="name">VINOTH KUMAR S</h1>
+      <div class="role">SDET | QA Automation Engineer</div>
+      <div class="contact">
+        <span>Email: vinothkumar.automation@gmail.com</span>
+		<span>Phone: 8220316109</span><br>
+		<span>Location: Chennai, India</span>
+		<span>LinkedIn: linkedin.com/in/vinothkumar-qa</span>
+		<span>GitHub: github.com/Vinothkumar-SV</span>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="section-title">Summary</div>
+      <div class="summary">
+        SDET with 4 years of experience in web, API, database, and test automation, specializing in Playwright, Selenium, TypeScript, JavaScript, and Java. Experienced in designing scalable POM-based automation frameworks, API automation with REST Assured and Postman, CI/CD integration using Jenkins and Maven, parallel execution, cross-browser testing, and end-to-end validation. Proven track record of improving automation coverage, reducing regression effort and execution time, and supporting quality delivery in Agile/Scrum environments.
+      </div>
+    </section>
+
+   <section class="section">
+  <div class="section-title">Experience</div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">Software Development Engineer in Test (SDET)</div>
+      <div class="date">02/2024 - Present</div>
+    </div>
+
+    <div class="company">TestLeaf Software Solutions Pvt Ltd</div>
+
+    <ul>
+      <li>Developed automation solutions for 3+ web applications using Selenium, Playwright, JavaScript, JIRA, and TestNG, achieving 85% automation coverage and reducing regression effort by 40%.</li>
+
+      <li>Built reusable POM-based frameworks with Maven and TestNG, supporting 100+ test scripts and 50+ Cucumber BDD features.</li>
+
+      <li>Engineered 50+ REST API test scenarios using REST Assured and validated application behavior across Chrome, Edge, and Firefox.</li>
+
+      <li>Implemented parallel test execution, reducing regression execution time by 35%.</li>
+
+      <li>Connected automation suites with Jenkins and Maven CI/CD pipelines, contributing to a 30% reduction in production defect leakage.</li>
+
+      <li>Created Power Automate workflows for test-data and environment activities, saving 10+ hours per sprint.</li>
+
+      <li>Designed reusable automation components to improve framework scalability, maintainability, and overall test execution efficiency.</li>
+
+      <li>Analyzed 100+ automation failures, application defects, and test results to identify root causes, reduce recurring defects, and improve release quality.</li>
+
+      <li>Partnered with developers, QA teams, and stakeholders to validate requirements, troubleshoot defects, and support quality delivery.</li>
+
+      <li>Executed functional, regression, API, database, and end-to-end testing activities within Agile/Scrum environments.</li>
+    </ul>
+  </div>
+
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">Junior Software Development Engineer in Test</div>
+      <div class="date">09/2022 - 08/2024</div>
+    </div>
+
+    <div class="company">TestLeaf Software Solutions Pvt Ltd</div>
+
+    <ul>
+      <li>Developed Selenium, Java, TestNG, and Cucumber test suites covering 80+ regression cases across 10+ modules.</li>
+
+      <li>Designed and maintained scalable automation frameworks using Selenium, Java, TestNG, and Cucumber.</li>
+
+      <li>Created API test scenarios using Postman, validating request/response payloads, status codes, and integration workflows.</li>
+
+      <li>Executed functional, regression, smoke, and exploratory testing across application releases.</li>
+
+      <li>Connected test suites with Jenkins and Maven to support continuous integration and delivery workflows.</li>
+
+      <li>Managed defect reporting through JIRA and worked closely with developers and stakeholders to drive timely resolution.</li>
+
+      <li>Conducted performance validation for critical APIs and web components.</li>
+
+      <li>Analyzed 50+ business requirements and user stories to design 200+ test scenarios, improving functional test coverage across multiple modules.</li>
+
+      <li>Coordinated with developers, product owners, and QA engineers to align testing activities with evolving product requirements.</li>
+
+      <li>Validated end-to-end web and API workflows to identify integration issues before release.</li>
+    </ul>
+  </div>
+</section>
+    <section class="section">
+      <div class="section-title">Projects</div>
+
+      <div class="project">
+        <div class="project-title">
+  AI-Powered Accessibility Audit Engine
+</div>
+
+<ul>
+  <li>Developed an AI-powered accessibility audit solution using Playwright and TypeScript to identify accessibility issues across web applications.</li>
+
+  <li>Built reusable automation components for scalable accessibility validation across multiple pages and application workflows.</li>
+
+  <li>Automated accessibility checks and generated actionable findings to reduce manual validation effort.</li>
+
+  <li>Implemented automated test execution and reporting to provide visibility into accessibility violations and test results.</li>
+
+  <li>Integrated functional and accessibility validation into the automation workflow to ensure application quality across releases.</li>
+
+  <li>Performed cross-browser validation to identify accessibility inconsistencies across supported browsers.</li>
+
+  <li>Applied AI-assisted analysis to accelerate issue identification, classification, and reporting.</li>
+
+  <li>Collaborated with development and QA teams to analyze defects, troubleshoot failures, and improve accessibility compliance.</li>
+</ul>
+      </div>
+    </section>
+
+  </main>
+
+  <aside class="sidebar">
+
+    <div class="profile-icon"></div>
+
+    <section class="side-section">
+      <div class="side-title">Education</div>
+
+      <div class="side-subtitle">MCA</div>
+      <div class="side-text">pavendar barathidasan Engineering College</div>
+      <div class="side-text">2016 - 2018</div>
+
+      <div class="side-subtitle">BCA</div>
+      <div class="side-text">National College</div>
+      <div class="side-text">2013 - 2016</div>
+    </section>
+
+    <section class="side-section">
+  <div class="side-title">Skills</div>
+
+  <div class="side-subtitle">Automation</div>
+  <div class="side-text">
+    Selenium WebDriver · Playwright · TypeScript · JavaScript · Java · TestNG ·
+    Cucumber BDD · Page Object Model (POM) · Data-Driven Testing ·
+    Cross-Browser Testing · Parallel Execution
+  </div>
+
+  <div class="side-subtitle">API / Database</div>
+  <div class="side-text">
+    REST Assured · Postman · REST API Testing · API Automation · JSON ·
+    Request/Response Validation · SQL · MySQL · Database Testing
+  </div>
+
+  <div class="side-subtitle">Playwright</div>
+  <div class="side-text">
+    Locators · Auto-Waiting · Fixtures · Hooks · Assertions · Browser Contexts ·
+    Frames · File Upload/Download · Screenshots · Tracing · API Testing
+  </div>
+
+  <div class="side-subtitle">CI/CD & Tools</div>
+  <div class="side-text">
+    Jenkins · Maven · Git · GitHub · JIRA · CI/CD Pipelines ·
+    Build Automation · Test Reporting
+  </div>
+
+  <div class="side-subtitle">Testing</div>
+  <div class="side-text">
+    Functional · Regression · Smoke · Sanity · Integration · Exploratory ·
+    API · Database · E2E · Cross-Browser · Defect Validation
+  </div>
+
+  <div class="side-subtitle">Framework & Practices</div>
+  <div class="side-text">
+    Automation Framework Design · Reusable Components · Test Data Management ·
+    Debugging · Failure Analysis · Maintainable Test Architecture
+  </div>
+
+  <div class="side-subtitle">Methodologies</div>
+  <div class="side-text">
+    Agile/Scrum · SDLC · STLC · Defect Life Cycle · CI/CD
+  </div>
+</section>
+
+  </aside>
+
+</div>
+</body>
+</html>
